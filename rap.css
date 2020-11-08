@@ -1,0 +1,672 @@
+*
+{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+/*************************************navpar********************************/
+ul {list-style: none;}
+a {text-decoration: none;}
+.first-section
+{
+  width:100%;
+  height:95vh;
+  background-image:url(bg.png);
+  background-repeat: none;
+  background-size: cover;
+  position: relative;
+}
+section nav
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background-color:#DDD;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  padding:0 5%;
+}
+section nav ul 
+{
+  display:flex;
+}
+.first-section nav .toggle
+{
+  display:none;
+}
+section nav ul li a 
+{
+  margin: 18px;
+  position: relative;
+  top:8px;
+  letter-spacing: 1px;
+  color:#000;
+  font-size:20px;
+  font-weight: bold;
+}
+section nav ul li a:hover
+{
+  color:rgb(41, 31, 31);
+  text-decoration: none;
+  border-bottom: 4px solid red;
+  border-radius:3px;
+  transition:all ease 0.2s;
+}
+section nav .logo
+{
+  position: relative;
+  left:6%;
+  color:#000;
+  font-size: 5vh;
+  font-weight: 800;
+  letter-spacing: 3px;
+  text-decoration: none;
+}
+
+/********************************intro*****************************/
+
+div .intro p:nth-child(1)
+{
+  font-weight:bold;
+  color: #6d6d6d;
+  font-size:22px
+}
+div .intro p:nth-child(2)
+{
+  font-weight: bold;
+  color:red;
+  letter-spacing: 1px;
+  font-size :50px ;
+}
+div .intro p:nth-child(3)
+{
+  font-weight: bold;
+  color:#403e3e;
+  font-size: 30px;
+  line-height: 30px;
+
+}
+div .intro p
+{
+  line-height: 0px;
+  margin:45px 0px 25px;
+  z-index: 5;
+}
+div .intro
+{
+  position: absolute;
+  left:13%; top:42%;
+  transform:translate(-13%,-42%)
+}
+div .intro button
+{
+  width:130px;
+  height:42px;
+  border-radius: 10px;
+  font-weight: bold;
+  /****outline for pass****/
+  outline:none;
+  margin:0px 10px;
+}
+.intro  .hireee
+{
+  border:2px solid #373636;
+  color:#373636;
+  box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.2) 
+            , -3px -3px 6px 0px rgba(0, 0, 0, 0.2)  ;
+}
+.intro .down
+{
+  background:#000;
+  color:#fff;
+  border:none;
+  box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.2) 
+            , -3px -3px 6px 0px rgba(0, 0, 0, 0.2)  ;
+}
+
+/* buttom animation*/
+.intro button:active
+{
+  transform:scale(0.9788888888)
+}
+
+/******************************image********************************/
+
+.image .model
+{
+  height: 560px;
+  position: absolute;
+  left:70%; top: 55px;
+  transform:translate(-70%)
+}
+
+/****************************about sectoin**************************/
+.second-section .aboutsectoin 
+{
+  width:80%;
+  height: 330px;
+  background-color:#FFF;
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+  margin: -7% auto 20px auto;
+  border-radius: 20px;
+  display: flex;
+  position: relative;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.second-section .aboutsectoin .about-img
+{
+  height: 300px;
+}
+.second-section .aboutsectoin .about-test
+{
+  width: 800px;
+} 
+.second-section .aboutsectoin .about-test p:nth-child(1)
+{
+  color:red;
+  font-size:23px;
+  font-weight: bold;
+  line-height: 10px;
+}
+.second-section .aboutsectoin .about-test p:nth-child(2)
+{
+  color:#3e3d3d;
+  font-size:13px;
+  font-weight: bold;
+  line-height: 5px;
+}
+.second-section .aboutsectoin .about-test p:nth-child(3),
+.second-section .aboutsectoin .about-test p:nth-child(4)
+{
+  color:#7e7d7d;
+  font-size:16px;
+}
+.second-section .aboutsectoin .about-test button
+{
+  width:100px;
+  height:35px;
+  border-radius: 8px;
+  margin: 0px 15px;
+  font-weight:bold;
+  outline:none;
+}
+.second-section .aboutsectoin .about-test button:active
+{
+  transform:scale(0.98)
+}
+.second-section .aboutsectoin .about-test .hair2
+{
+  border:2px solid #000;
+  color:#000;
+}
+.second-section .aboutsectoin .about-test .Down2
+{
+  border:none;
+  color:#fff;
+  background-color:#000;
+}
+/*******************************service***********************************/
+
+.section_service
+{
+  height:600px;
+  background-color:#Dff;
+  padding:2% 10% 0 10%;
+  box-shadow:2px 2px 12px rgba(0, 0, 0, 0.3);
+}
+.section_service .text
+{
+  width:550px;
+  margin: 50px 0;
+}
+.section_service .text p:nth-child(1)
+{
+  font-size: 30px;
+  font-weight: bold;
+  color:#3e3d3d;
+  line-height: 2px;
+}
+.section_service .text p:nth-child(2)
+{
+  font-size:15px;
+  font-weight:bold;
+  line-height: 5px;
+  color:#3e3e3d;
+}
+.section_service .text p:nth-child(3)
+{
+  font-size: 16px;
+  color:#7e7d7d;
+}
+/****************************************boxs*********************************/
+.section_service .boxs .box-1 , .box-2 , .box-3
+{
+  width: 300px;
+  height:320px;
+  box-shadow:2px 2px 12px rgba(0, 0, 0, 0.3);
+  background-color:cover;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.section_service .boxs
+{
+  display:flex;
+  justify-content: space-between;
+}
+.section_service .boxs .box-1
+{
+  background-image: url(services-1.png);
+}
+.section_service .boxs .box-2
+{
+  background-image: url(services-2.png);
+}
+.section_service .boxs .box-3
+{
+  background-image: url(servies-3.png);
+}
+.section_service .boxs span
+{
+  width: 40px;
+  height:40px;
+  border-radius: 50%;
+  background-color:#fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.section_service .boxs .box-1 p:nth-child(2),
+.box-2 p:nth-child(2),
+.box-3 p:nth-child(2)
+{
+  color:red;
+  font-size: 23px;
+  line-height: 0px;
+  margin: 20px;
+}
+.section_service .boxs .box-1 p:nth-child(3),
+.box-2 p:nth-child(3),
+.box-3 p:nth-child(3)
+{
+  text-align: center;
+  color:#fff;
+  width: 230px;
+  margin: 0px 0px 20px 0px;
+}
+.section_service .boxs div .bou
+{
+  width:100px;
+  height:30px;
+  font-weight: bold;
+  color:#000;
+  border:2px solid #000;
+  background-color:yellow;
+  border-radius: 10px;
+  outline:none;
+}
+.section_service .boxs div .bou:active
+{
+  transform:scale(0.98);
+}
+
+/*************************************conect me **********************/
+.conect-us .contact-me
+{
+  width:100%;
+  height:120px;
+  background-image: url(project.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.conect-us .contact-me p 
+{
+  color:red;
+  border-bottom: 2px solid red;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 15px 0px 10px 0px;
+}
+.conect-us .contact-me button
+{
+  width:100px;
+  height:30px;
+  font-weight: bold;
+  color:#000;
+  border:2px solid #000;
+  background-color:white;
+  border-radius: 10px;
+  outline:none;
+  box-shadow:1px 1px 3px 1px rgb(85, 85, 85)
+}
+.conect-us .contact-me button:active
+{
+  transform: scale(0.98);
+}
+
+/**************************************footer***********************/
+
+.footer footer
+{
+  height:300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.footer footer p:nth-child(1)
+{
+  font-size:30px;
+  font-weight: bold;
+  color: #191919;
+
+  
+}
+.footer footer p:nth-child(2)
+{
+  font-size:16px;
+  color:#6d6d6d;
+  width:600px;
+  text-align: center;
+}
+.footer footer .social-icons
+{
+  width:40px;
+  height:40px;
+  background-color:#fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 10px;
+}
+.footer footer div
+{
+  display: flex;
+}
+.footer footer .copyright
+{
+  color:#577777;
+  position: absolute;
+  left:50%; bottom: 8%;
+  transform: translate(-50%);
+}
+.footer footer div .social-icons
+{
+  color:#000;
+  text-decoration: none;
+
+}
+.footer footer div .social-icons:hover
+{
+  background-color:#000;
+  color:#fff;
+  box-shadow:2px 2px 12px rgba(0, 0, 0, 0.2);
+  transition:all ease 0.5s;
+}
+.footer footer div .social-icons i:hover 
+{
+}
+.icons-2 .icons-22
+{
+  position: fixed;
+  top:35% ;right: 0%;
+  transform:translateY(-50);
+}
+.icons-2 .icons-22 a
+{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:40px;
+  height:50px;
+  background-color:#fff;
+  color:red;
+  margin:0px;
+  padding:0px;
+  line-height: 0px;
+  border-bottom:1px solid red;
+  box-shadow:2px 2px 12px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+
+}
+.icons-2 .icons-22 a:hover
+{
+  color:#dff;
+  background-color:red;
+  transition:all ease 0.5s;
+}
+
+/*************************************for phone***********************/
+@media(max-width:1000px)
+{
+  *
+  {
+    box-sizing: border-box;
+  }
+  /************************************intro**********************/
+  .image .model  {
+    height: 460px;
+    left:90%;
+    transform:translateX(-90%);
+  }
+  .first-section div .intro
+  {
+    top:45%;
+  }
+  .first-section .intro .hireee , .down
+  {
+    margin: 5%;
+    
+  }
+
+
+  /**************************second image**********************/
+
+  .second-section .aboutsectoin
+  {
+    width:80%;
+    border-radius:10px;
+  }
+  .second-section .aboutsectoin .about-img
+  {
+    height: 200px;
+  }
+  .second-section .aboutsectoin .about-test
+  {
+    width:400px;
+  }
+  .second-section .aboutsectoin .about-test p:nth-child(1)
+  {
+    font-size:20px
+  }
+  .second-section .aboutsectoin .about-test p:nth-child(2)
+  {
+    font-size:10px;
+  }
+  .second-section .aboutsectoin .about-test p:nth-child(3)
+  {
+    font-size :14px;
+  }
+  .second-section .aboutsectoin .about-test p:nth-child(4)
+  {
+    font-size :14px;
+  }
+
+  /******************************service**************************/
+  .section_service
+  {
+    padding:2% 5% 0px 5%;
+    height: auto;
+  }
+  .section_service .boxs
+  {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .section_service .boxs .box-1 ,.box-2,.box-3
+  {
+    flex-grow: 1;
+    margin:10px;
+  }  
+
+  /******************************************conect me*****************/
+
+  .conect-us .contact-me
+  {
+    height:200px;
+  }
+  .conect-us .contact-me p
+  {
+    font-size: 26px;
+  }
+  .conect-us .contact-me button
+  {
+    font-size: 14px;
+    height: 35px;
+    width:160px
+  }
+}
+
+/**************************************************for min phone****************************************/
+@media(max-width:720px)
+{
+  .first-section div
+  {
+    background-image: none;
+    background-color:#f7f7f7
+  }
+  .first-section div .image
+  {
+    display: none;
+  }
+  .first-section nav .toggle
+  {
+    display:block;
+  }
+  .first-section div .intro p:nth-child(2)
+  {
+    line-height: 40px;
+    margin:0;
+    padding:0;
+  }
+  .first-section div .intro
+  {
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:80%;
+  }
+
+
+  .first-section nav ul
+  {
+    margin:0px;
+    padding:0px;
+    background-color:#ddd;
+    flex-direction: column;
+    position: fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height:100vh;
+    box-sizing: border-box;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    display:none;
+  }
+  .first-section nav ul li
+  {
+    padding:10px;
+  }
+  .first-section nav ul li a
+  {
+    font-size: 1.4em;
+    text-transform: uppercase;
+    color:#5c5c5c
+  }
+  .first-section nav ul li a:hover
+  {
+    color:#121212
+  }
+  .first-section nav .toggle
+  {
+    background-color:#DDD
+  }
+  .first-section nav .toggle::before 
+  {
+    content: '\f0c9';
+    font-family: fontAwesome;
+    line-height: 30px;
+    z-index: 1;
+    background-color:#DDD;
+  }
+  .first-section nav .toggle.active::before
+  {
+    content: '\f00d';
+    position: fixed;
+    right:25px;
+    line-height: 0;
+  }
+  nav.active ul
+  {
+    display:flex !important;
+  }
+  .second-section .aboutsectoin
+  {
+    top:0;
+    flex-direction: column;
+    width: 90%;
+    height:auto;
+    padding:30px 0px;
+    align-items: center;
+  }
+  .second-section .aboutsectoin .about-test
+  {
+    width:90%;
+    text-align:center;
+  }
+  .second-section .aboutsectoin .about-test p:nth-child(1)
+  {
+    margin: 15px;
+  }
+  .section_service .text
+  {
+    width:100%;
+  }
+  .conect-us .contact-me
+  {
+    height:180px;
+  }
+  .conect-us .contact-me p
+  {
+    font-size: 14px;
+  }
+  .conect-us .contact-me button
+  {
+  
+    height: 33px;
+    width:150px
+  }
+  .footer footer p:nth-child(2)
+  {
+    width:90%;
+  }
+  .footer footer .copyright
+  {
+    font-size:10px
+  }
+  
+
+}
